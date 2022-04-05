@@ -7,27 +7,29 @@ These Biome Maps hold data about what objects can spawn and how densely they wil
 
 Each pixel on the Heat Maps represents which type of object it is via the use of the RGB channels and the brightness of each pixel determines the density of that object in the given heat climate.
 
-|<a href="url"><img src="DataFiles/Heat/Heat%20Mushrooms.png" align="" height="250" width="250" ></a>|<a href="url"><img src="DataFiles/Heat/Heat%20Trees.png" align="" height="250" width="250" ></a>|<a href="url"><img src="DataFiles/Heat/Heat%20Folliage.png" align="" height="250" width="250" ></a>|
-|:-------------:|:-------------:|:-------------:|
-|Mushrooms Heat Map|Trees Heat Map|Folliage Heat Map|
-|*grows most densely in cooler temperatures*|*grows most densely in average temperatures*|*grows most densely in warmer temperatures*|
+|Heat Object|Heat Object|Heat Object|
+|:-----------------------------------------:|:------------------------------------------:|:------------------------------------------:|
+|<a href="url"><img src="DataFiles/Heat/Heat%20Mushrooms.png" align="" height="100%" width="200" ></a>|<a href="url"><img src="DataFiles/Heat/Heat%20Trees.png" align="" height="100%" width="200" ></a>|<a href="url"><img src="DataFiles/Heat/Heat%20Folliage.png" align="" height="100%" width="200" ></a>|
+|Mushrooms Heat Map                         |Trees Heat Map                              |Folliage Heat Map                           |
+|*grows most densely in cooler temperatures*|*grows most densely in average temperatures*|*grows most densely in warmer temperatures* |
 
 
 ## Moisture Input Files
 
 Each pixel on the Moisture Map represents which type of object it is bia the use of the RGB channels and the brightness of each pixel determines the density of that object in the given moisture climate.
 
-|<a href="url"><img src="DataFiles/Moisture/Moisture%20Mushrooms.png" align="" height="250" width="250" ></a>|<a href="url"><img src="DataFiles/Moisture/Moisture%20Trees.png" align="" height="250" width="250" ></a>|<a href="url"><img src="DataFiles/Moisture/Moisture%20Folliage.png" align="" height="250" width="250" ></a>|
-|:-------------:|:-------------:|:-------------:|
-|Mushrooms Moisture Map|Trees Moisture Map|Folliage Moisture Map|
+|Moisture Object|Moisture Object|Moisture Object|
+|:---------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
+|<a href="url"><img src="DataFiles/Moisture/Moisture%20Mushrooms.png" align="" height="100%" width="200" ></a>|<a href="url"><img src="DataFiles/Moisture/Moisture%20Trees.png" align="" height="100%" width="200" ></a>|<a href="url"><img src="DataFiles/Moisture/Moisture%20Folliage.png" align="" height="100%" width="200" ></a>|
+|Mushrooms Moisture Map                   |Trees Moisture Map                       |Folliage Moisture Map                    |
 |*grows most densely in moderate moisture*|*grows most densely in above average moisture*|*grows most densely in below average moisture*|
 
 
 ## Output Files
 
-|<a href="url"><img src="BiomeTextureMap.png" align="" height="250" width="250" ></a>|<a href="url"><img src="HeatTextureMap.png" align="" height="250" width="250" ></a>|<a href="url"><img src="MoistureTextureMap.png" align="" height="250" width="250" ></a>|
-|:-------------:|:-------------:|:-------------:|
-|**Biome Map**|**Heat Map**|**Moisture Map**|
+|Biome Map               |Heat Map             |Moisture Map              |
+|:---------------------------:|:------------------------:|:----------------------------:|
+|<a href="url"><img src="BiomeTextureMap.png" align="" height="100%" width="200" ></a>|<a href="url"><img src="HeatTextureMap.png" align="" height="100%" width="200" ></a>|<a href="url"><img src="MoistureTextureMap.png" align="" height="100%" width="200" ></a>|
 |*final compilation of inputs*|*compilation of heat maps*|*compilation of moisture maps*|
 
 ### Compilation Steps
