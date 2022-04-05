@@ -108,3 +108,13 @@ for x in range(50):
 img = Image.fromarray(finalImage, 'RGBA')
 img.save('BiomeTextureMap.png')
 img.show()
+
+# Converts from final image map to Image File
+img2 = Image.fromarray(heatImage, 'RGBA')
+img2.save('HeatTextureMap1.png')
+img2.show()
+
+# Converts from final image map to Image File
+img3 = Image.fromarray(moistureImage, 'RGBA')
+img3.save('MoistureTextureMap1.png')
+img3.show()
