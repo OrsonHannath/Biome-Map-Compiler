@@ -60,7 +60,7 @@ heatImage = np.copy(imagesHeat[0])
 rgbIndexHeat = 0
 rgbFoundHeat = False
 
-# Set the moistureImage to a White Image
+# Set the heatImage to a White Image
 for x in range(50):
     for y in range(50):
         for z in range(3):
